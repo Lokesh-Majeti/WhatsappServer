@@ -1,7 +1,4 @@
 Spring:
-  application:
-    name: user
-  
   datasource:
     url: jdbc:oracle:thin:@localhost:1521:xe
     username: SYSTEM
