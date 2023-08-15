@@ -1,0 +1,13 @@
+Spring:
+  application:
+    name: user
+  
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: SYSTEM
+    password: lokesh
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true    
+   
